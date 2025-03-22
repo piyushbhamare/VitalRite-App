@@ -1,4 +1,4 @@
-# VitalRite
+## VitalRite
 
 **Team: CloudVision**
 
