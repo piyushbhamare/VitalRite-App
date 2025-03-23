@@ -210,7 +210,7 @@ fun VitalRiteApp() {
             PrescribeScreen(navController, backStackEntry.arguments?.getString("appointmentId") ?: "")
         }
         composable("calendar") { CalendarScreen(navController) }
-        composable("sos") { SOSScreen(navController) }
+        composable("patientHistory") { PatientHistoryScreen(navController) }
         composable("prescriptionDetail/{prescriptionId}") { backStackEntry ->
             val prescriptionId = backStackEntry.arguments?.getString("prescriptionId") ?: ""
             PrescriptionDetailScreen(navController = navController, prescriptionId = prescriptionId)
