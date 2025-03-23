@@ -111,7 +111,7 @@ fun DoctorBottomNav(navController: NavController) {
             isSelected = selectedRoute == "sos",
             onClick = {
                 selectedRoute = "sos"
-                navController.navigate("sos")
+                navController.navigate("patientHistory")
             }
         )
     }
